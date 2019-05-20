@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CRMPRO Application Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.midhun.crmpro.util.TestListener"/>
+    <listener class-name="com.midhun.crmpro.util.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="CRMPRO Application Regression Test Cases(failed)">
+    <classes>
+      <class name="com.midhun.crmpro.tests.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="validateLoginPageTitleTest"/>
+        </methods>
+      </class> <!-- com.midhun.crmpro.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- CRMPRO Application Regression Test Cases(failed) -->
+</suite> <!-- Failed suite [CRMPRO Application Test Suite] -->

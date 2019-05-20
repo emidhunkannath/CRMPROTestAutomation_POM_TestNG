@@ -1,0 +1,54 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CRMPRO Application Test Suite">
+
+	<listeners>
+		<listener class-name="com.midhun.crmpro.util.TestListener" />
+		<listener class-name="com.midhun.crmpro.util.ExtentReporterNG" />
+	</listeners>
+
+	<test name="CRMPRO Application Regression Test Cases">
+		<classes>
+			<class name="com.midhun.crmpro.tests.LoginPageTest">
+				<methods>
+					<include name="validateLoginPageTitleTest" />
+					<include name="crmproLogoTest" />
+					<include name="loginTest" />
+				</methods>
+			</class>
+			<class name="com.midhun.crmpro.tests.HomePageTest">
+				<methods>
+					<include name="validateHomePageTitleTest" />
+					<include name="validateLoggedInUserNameTest" />
+					<include name="validateContactsLink" />
+				</methods>
+			</class>
+			<class name="com.midhun.crmpro.tests.ContactsPageTest">
+				<methods>
+					<include name="validateContactsLabelTest" />
+					<include name="selectSingleContactTest" />
+					<include name="selectMultipleContactsTest" />
+				</methods>
+			</class>
+			<class name="com.midhun.crmpro.tests.NewContactPageTest">
+				<methods>
+					<include name="createNewContactTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- <test name="CRMPRO Application Sanity Test Cases">
+		<classes>
+			<class name="com.midhun.crmpro.tests.LoginPageTest">
+				<methods>
+					<include name="validateLoginPageTitleTest" />
+					<include name="crmproLogoTest" />
+					<include name="loginTest" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+
+</suite>

@@ -1,0 +1,4 @@
+com\midhun\crmpro\tests\HomePageTest.class
+com\midhun\crmpro\tests\LoginPageTest.class
+com\midhun\crmpro\tests\NewContactPageTest.class
+com\midhun\crmpro\tests\ContactsPageTest.class

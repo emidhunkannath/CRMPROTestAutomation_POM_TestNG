@@ -1,0 +1,13 @@
+com\midhun\crmpro\pages\LoginPage.class
+com\midhun\crmpro\util\WebEventListener.class
+com\midhun\crmpro\pages\HomePage.class
+com\midhun\crmpro\util\ExtentReporterNG.class
+com\midhun\crmpro\util\TestUtil.class
+com\midhun\crmpro\util\TestListener.class
+com\midhun\crmpro\pages\NewContactPage.class
+com\midhun\crmpro\base\TestBase.class
+com\midhun\crmpro\pages\TasksPage.class
+com\midhun\crmpro\util\TestUtil$1.class
+com\midhun\crmpro\pages\DealsPage.class
+com\midhun\crmpro\pages\ContactsPage.class
+com\midhun\crmpro\pages\RegistrationPage.class
