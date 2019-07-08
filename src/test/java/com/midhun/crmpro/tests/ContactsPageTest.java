@@ -19,19 +19,19 @@ public class ContactsPageTest extends TestBase {
 		contactsPage = new LoginPage().login(prop.getProperty("username"), prop.getProperty("password")).clickOnContactsLink();
 	}
 
-	@Test(priority = 1, description = "Validate Contacts label")
+	@Test(priority = 7, description = "Validate Contacts label")
 	public void validateContactsLabelTest() {
 
 		Assert.assertTrue(contactsPage.validateContactsLabel(), "Contacts label is not displayed");
 	}
 
-	@Test(priority = 2, description = "User select single contact")
+	@Test(priority = 8, description = "User select single contact")
 	public void selectSingleContactTest() {
 
 		contactsPage.selectContactByName("Midhun Kannath");
 	}
 
-	@Test(priority = 3, description = "User select multiple contacts")
+	@Test(priority = 9, description = "User select multiple contacts")
 	public void selectMultipleContactsTest() {
 
 		contactsPage.selectContactByName("Midhun Kannath");

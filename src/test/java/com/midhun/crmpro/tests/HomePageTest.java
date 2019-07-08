@@ -19,20 +19,20 @@ public class HomePageTest extends TestBase {
 		homePage = new LoginPage().login(prop.getProperty("username"), prop.getProperty("password"));
 	}
 
-	@Test(priority = 1, description = "Validate home page title")
+	@Test(priority = 4, description = "Validate home page title")
 	public void validateHomePageTitleTest() {
 
 		String homePageTitle = homePage.validateHomePageTitle();
 		Assert.assertEquals(homePageTitle, "CRMPRO", "Home page title mismatch");
 	}
 
-	@Test(priority = 2, description = "Validate logged in username")
+	@Test(priority = 5, description = "Validate logged in username")
 	public void validateLoggedInUserNameTest() {
 
 		Assert.assertTrue(homePage.verifyLoggedInUserName(), "Logged in user name is not displayed/incorrect");
 	}
 
-	@Test(priority = 3, description = "Validate Contacts link")
+	@Test(priority = 6, description = "Validate Contacts link")
 	public void validateContactsLink() {
 
 		homePage.clickOnContactsLink();

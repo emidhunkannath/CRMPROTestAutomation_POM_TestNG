@@ -12,7 +12,8 @@ public class HomePage extends TestBase {
 	@FindBy(how = How.XPATH, using = "//td[contains(text(), 'User: Midhun Kannath')]")
 	WebElement lblUserName;
 
-	@FindBy(how = How.LINK_TEXT, using = "Contacts")
+	//@FindBy(how = How.LINK_TEXT, using = "Contacts")
+	@FindBy(how = How.XPATH, using = "//a[@title='Contacts']")
 	WebElement lnkContacts;
 
 	@FindBy(how = How.LINK_TEXT, using = "New Contact")

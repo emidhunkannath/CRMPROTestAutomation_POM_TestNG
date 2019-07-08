@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-05-15T15:00:46Z" name="CRMPRO Application Test Suite" finished-at="2019-05-15T15:12:13Z" duration-ms="687309">
+  <suite started-at="2019-07-08T16:08:01Z" name="CRMPRO Application Test Suite" finished-at="2019-07-08T16:21:18Z" duration-ms="797754">
     <groups>
     </groups>
-    <test started-at="2019-05-15T15:00:46Z" name="CRMPRO Application Regression Test Cases" finished-at="2019-05-15T15:12:13Z" duration-ms="687309">
+    <test started-at="2019-07-08T16:08:01Z" name="CRMPRO Application Regression Test Cases" finished-at="2019-07-08T16:21:18Z" duration-ms="797754">
       <class name="com.midhun.crmpro.tests.NewContactPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midhun.crmpro.tests.NewContactPageTest@1018bde2]" started-at="2019-05-15T15:03:36Z" name="setUp" finished-at="2019-05-15T15:04:21Z" duration-ms="45894" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midhun.crmpro.tests.NewContactPageTest@60641ec8]" started-at="2019-07-08T16:17:46Z" name="setUp" finished-at="2019-07-08T16:18:51Z" duration-ms="65769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.midhun.crmpro.tests.NewContactPageTest@1018bde2]" started-at="2019-05-15T15:04:21Z" name="createNewContactTest" description="Create new contact" data-provider="getTestData" finished-at="2019-05-15T15:04:25Z" duration-ms="3498" status="PASS">
+        <test-method signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:10, instance:com.midhun.crmpro.tests.NewContactPageTest@60641ec8]" started-at="2019-07-08T16:18:51Z" name="createNewContactTest" description="Create new contact" data-provider="getTestData" finished-at="2019-07-08T16:18:56Z" duration-ms="4164" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,15 +37,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewContactTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.midhun.crmpro.tests.NewContactPageTest@1018bde2]" started-at="2019-05-15T15:04:25Z" name="tearDown" finished-at="2019-05-15T15:04:28Z" duration-ms="3325" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.midhun.crmpro.tests.NewContactPageTest@60641ec8]" started-at="2019-07-08T16:18:56Z" name="tearDown" finished-at="2019-07-08T16:18:56Z" duration-ms="817" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midhun.crmpro.tests.NewContactPageTest@1018bde2]" started-at="2019-05-15T15:04:28Z" name="setUp" finished-at="2019-05-15T15:05:20Z" duration-ms="51454" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midhun.crmpro.tests.NewContactPageTest@60641ec8]" started-at="2019-07-08T16:18:56Z" name="setUp" finished-at="2019-07-08T16:20:08Z" duration-ms="71215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.midhun.crmpro.tests.NewContactPageTest@1018bde2]" started-at="2019-05-15T15:05:20Z" name="createNewContactTest" description="Create new contact" data-provider="getTestData" finished-at="2019-05-15T15:05:23Z" duration-ms="3185" status="PASS">
+        <test-method signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:10, instance:com.midhun.crmpro.tests.NewContactPageTest@60641ec8]" started-at="2019-07-08T16:20:08Z" name="createNewContactTest" description="Create new contact" data-provider="getTestData" finished-at="2019-07-08T16:20:12Z" duration-ms="3887" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -71,15 +71,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewContactTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.midhun.crmpro.tests.NewContactPageTest@1018bde2]" started-at="2019-05-15T15:05:23Z" name="tearDown" finished-at="2019-05-15T15:05:26Z" duration-ms="2843" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.midhun.crmpro.tests.NewContactPageTest@60641ec8]" started-at="2019-07-08T16:20:12Z" name="tearDown" finished-at="2019-07-08T16:20:12Z" duration-ms="798" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midhun.crmpro.tests.NewContactPageTest@1018bde2]" started-at="2019-05-15T15:05:26Z" name="setUp" finished-at="2019-05-15T15:06:11Z" duration-ms="45589" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midhun.crmpro.tests.NewContactPageTest@60641ec8]" started-at="2019-07-08T16:20:12Z" name="setUp" finished-at="2019-07-08T16:21:14Z" duration-ms="61826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.midhun.crmpro.tests.NewContactPageTest@1018bde2]" started-at="2019-05-15T15:06:11Z" name="createNewContactTest" description="Create new contact" data-provider="getTestData" finished-at="2019-05-15T15:06:15Z" duration-ms="3369" status="PASS">
+        <test-method signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:10, instance:com.midhun.crmpro.tests.NewContactPageTest@60641ec8]" started-at="2019-07-08T16:21:14Z" name="createNewContactTest" description="Create new contact" data-provider="getTestData" finished-at="2019-07-08T16:21:18Z" duration-ms="3347" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -105,55 +105,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewContactTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.midhun.crmpro.tests.NewContactPageTest@1018bde2]" started-at="2019-05-15T15:06:15Z" name="tearDown" finished-at="2019-05-15T15:06:18Z" duration-ms="3608" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.midhun.crmpro.tests.NewContactPageTest@60641ec8]" started-at="2019-07-08T16:21:18Z" name="tearDown" finished-at="2019-07-08T16:21:18Z" duration-ms="864" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.midhun.crmpro.tests.NewContactPageTest -->
       <class name="com.midhun.crmpro.tests.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midhun.crmpro.tests.HomePageTest@60015ef5]" started-at="2019-05-15T15:01:41Z" name="setUp" finished-at="2019-05-15T15:02:27Z" duration-ms="45693" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midhun.crmpro.tests.HomePageTest@40cb698e]" started-at="2019-07-08T16:10:08Z" name="setUp" finished-at="2019-07-08T16:11:03Z" duration-ms="55163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateHomePageTitleTest()[pri:1, instance:com.midhun.crmpro.tests.HomePageTest@60015ef5]" started-at="2019-05-15T15:02:27Z" name="validateHomePageTitleTest" description="Validate home page title" finished-at="2019-05-15T15:02:27Z" duration-ms="13" status="PASS">
+        <test-method signature="validateHomePageTitleTest()[pri:4, instance:com.midhun.crmpro.tests.HomePageTest@40cb698e]" started-at="2019-07-08T16:11:03Z" name="validateHomePageTitleTest" description="Validate home page title" finished-at="2019-07-08T16:11:03Z" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateHomePageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.midhun.crmpro.tests.HomePageTest@60015ef5]" started-at="2019-05-15T15:02:27Z" name="tearDown" finished-at="2019-05-15T15:02:30Z" duration-ms="3145" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.midhun.crmpro.tests.HomePageTest@40cb698e]" started-at="2019-07-08T16:11:03Z" name="tearDown" finished-at="2019-07-08T16:11:04Z" duration-ms="815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midhun.crmpro.tests.HomePageTest@60015ef5]" started-at="2019-05-15T15:06:52Z" name="setUp" finished-at="2019-05-15T15:07:38Z" duration-ms="45689" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midhun.crmpro.tests.HomePageTest@40cb698e]" started-at="2019-07-08T16:11:04Z" name="setUp" finished-at="2019-07-08T16:12:02Z" duration-ms="58459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateLoggedInUserNameTest()[pri:2, instance:com.midhun.crmpro.tests.HomePageTest@60015ef5]" started-at="2019-05-15T15:07:38Z" name="validateLoggedInUserNameTest" description="Validate logged in username" finished-at="2019-05-15T15:07:38Z" duration-ms="88" status="PASS">
+        <test-method signature="validateLoggedInUserNameTest()[pri:5, instance:com.midhun.crmpro.tests.HomePageTest@40cb698e]" started-at="2019-07-08T16:12:02Z" name="validateLoggedInUserNameTest" description="Validate logged in username" finished-at="2019-07-08T16:12:02Z" duration-ms="232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoggedInUserNameTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.midhun.crmpro.tests.HomePageTest@60015ef5]" started-at="2019-05-15T15:07:38Z" name="tearDown" finished-at="2019-05-15T15:07:41Z" duration-ms="3064" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.midhun.crmpro.tests.HomePageTest@40cb698e]" started-at="2019-07-08T16:12:02Z" name="tearDown" finished-at="2019-07-08T16:12:03Z" duration-ms="778" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midhun.crmpro.tests.HomePageTest@60015ef5]" started-at="2019-05-15T15:09:43Z" name="setUp" finished-at="2019-05-15T15:10:30Z" duration-ms="47476" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midhun.crmpro.tests.HomePageTest@40cb698e]" started-at="2019-07-08T16:12:03Z" name="setUp" finished-at="2019-07-08T16:12:59Z" duration-ms="55839" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateContactsLink()[pri:3, instance:com.midhun.crmpro.tests.HomePageTest@60015ef5]" started-at="2019-05-15T15:10:30Z" name="validateContactsLink" description="Validate Contacts link" finished-at="2019-05-15T15:10:46Z" duration-ms="15118" status="PASS">
+        <test-method signature="validateContactsLink()[pri:6, instance:com.midhun.crmpro.tests.HomePageTest@40cb698e]" started-at="2019-07-08T16:12:59Z" name="validateContactsLink" description="Validate Contacts link" finished-at="2019-07-08T16:13:21Z" duration-ms="21509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateContactsLink -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.midhun.crmpro.tests.HomePageTest@60015ef5]" started-at="2019-05-15T15:10:46Z" name="tearDown" finished-at="2019-05-15T15:10:49Z" duration-ms="3250" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.midhun.crmpro.tests.HomePageTest@40cb698e]" started-at="2019-07-08T16:13:21Z" name="tearDown" finished-at="2019-07-08T16:13:21Z" duration-ms="801" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.midhun.crmpro.tests.HomePageTest -->
       <class name="com.midhun.crmpro.tests.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midhun.crmpro.tests.LoginPageTest@55740540]" started-at="2019-05-15T15:00:46Z" name="setUp" finished-at="2019-05-15T15:01:36Z" duration-ms="50415" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midhun.crmpro.tests.LoginPageTest@5dd91bca]" started-at="2019-07-08T16:08:01Z" name="setUp" finished-at="2019-07-08T16:08:35Z" duration-ms="33780" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateLoginPageTitleTest()[pri:1, instance:com.midhun.crmpro.tests.LoginPageTest@55740540]" started-at="2019-05-15T15:01:36Z" name="validateLoginPageTitleTest" description="Validate login page title" finished-at="2019-05-15T15:01:36Z" duration-ms="24" status="FAIL">
+        <test-method signature="validateLoginPageTitleTest()[pri:1, instance:com.midhun.crmpro.tests.LoginPageTest@5dd91bca]" started-at="2019-07-08T16:08:35Z" name="validateLoginPageTitleTest" description="Validate login page title" finished-at="2019-07-08T16:08:35Z" duration-ms="50" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [CRMPRO  - CRM software for customer relationship management, sales, and support.] but found [CRM says…]]]>
@@ -198,69 +198,69 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.midhun.crmpro.tests.LoginPageTest@55740540]" started-at="2019-05-15T15:01:37Z" name="tearDown" finished-at="2019-05-15T15:01:41Z" duration-ms="4161" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.midhun.crmpro.tests.LoginPageTest@5dd91bca]" started-at="2019-07-08T16:08:36Z" name="tearDown" finished-at="2019-07-08T16:08:37Z" duration-ms="788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midhun.crmpro.tests.LoginPageTest@55740540]" started-at="2019-05-15T15:06:18Z" name="setUp" finished-at="2019-05-15T15:06:49Z" duration-ms="30751" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midhun.crmpro.tests.LoginPageTest@5dd91bca]" started-at="2019-07-08T16:08:37Z" name="setUp" finished-at="2019-07-08T16:09:08Z" duration-ms="31399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="crmproLogoTest()[pri:2, instance:com.midhun.crmpro.tests.LoginPageTest@55740540]" started-at="2019-05-15T15:06:49Z" name="crmproLogoTest" description="Validate CRMPRO logo" finished-at="2019-05-15T15:06:49Z" duration-ms="32" status="PASS">
+        <test-method signature="crmproLogoTest()[pri:2, instance:com.midhun.crmpro.tests.LoginPageTest@5dd91bca]" started-at="2019-07-08T16:09:08Z" name="crmproLogoTest" description="Validate CRMPRO logo" finished-at="2019-07-08T16:09:09Z" duration-ms="195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- crmproLogoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.midhun.crmpro.tests.LoginPageTest@55740540]" started-at="2019-05-15T15:06:49Z" name="tearDown" finished-at="2019-05-15T15:06:52Z" duration-ms="3342" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.midhun.crmpro.tests.LoginPageTest@5dd91bca]" started-at="2019-07-08T16:09:09Z" name="tearDown" finished-at="2019-07-08T16:09:09Z" duration-ms="783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midhun.crmpro.tests.LoginPageTest@55740540]" started-at="2019-05-15T15:08:52Z" name="setUp" finished-at="2019-05-15T15:09:24Z" duration-ms="31719" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midhun.crmpro.tests.LoginPageTest@5dd91bca]" started-at="2019-07-08T16:09:09Z" name="setUp" finished-at="2019-07-08T16:09:41Z" duration-ms="31695" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:3, instance:com.midhun.crmpro.tests.LoginPageTest@55740540]" started-at="2019-05-15T15:09:24Z" name="loginTest" description="Validate login" finished-at="2019-05-15T15:09:40Z" duration-ms="15539" status="PASS">
+        <test-method signature="loginTest()[pri:3, instance:com.midhun.crmpro.tests.LoginPageTest@5dd91bca]" started-at="2019-07-08T16:09:41Z" name="loginTest" description="Validate login" finished-at="2019-07-08T16:10:07Z" duration-ms="25749" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.midhun.crmpro.tests.LoginPageTest@55740540]" started-at="2019-05-15T15:09:40Z" name="tearDown" finished-at="2019-05-15T15:09:43Z" duration-ms="3318" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.midhun.crmpro.tests.LoginPageTest@5dd91bca]" started-at="2019-07-08T16:10:07Z" name="tearDown" finished-at="2019-07-08T16:10:08Z" duration-ms="798" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.midhun.crmpro.tests.LoginPageTest -->
       <class name="com.midhun.crmpro.tests.ContactsPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midhun.crmpro.tests.ContactsPageTest@2f54a33d]" started-at="2019-05-15T15:02:30Z" name="setUp" finished-at="2019-05-15T15:03:31Z" duration-ms="61086" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midhun.crmpro.tests.ContactsPageTest@3382f8ae]" started-at="2019-07-08T16:13:21Z" name="setUp" finished-at="2019-07-08T16:14:41Z" duration-ms="80176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateContactsLabelTest()[pri:1, instance:com.midhun.crmpro.tests.ContactsPageTest@2f54a33d]" started-at="2019-05-15T15:03:31Z" name="validateContactsLabelTest" description="Validate Contacts label" finished-at="2019-05-15T15:03:31Z" duration-ms="80" status="PASS">
+        <test-method signature="validateContactsLabelTest()[pri:7, instance:com.midhun.crmpro.tests.ContactsPageTest@3382f8ae]" started-at="2019-07-08T16:14:41Z" name="validateContactsLabelTest" description="Validate Contacts label" finished-at="2019-07-08T16:14:42Z" duration-ms="122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateContactsLabelTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.midhun.crmpro.tests.ContactsPageTest@2f54a33d]" started-at="2019-05-15T15:03:31Z" name="tearDown" finished-at="2019-05-15T15:03:34Z" duration-ms="3035" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.midhun.crmpro.tests.ContactsPageTest@3382f8ae]" started-at="2019-07-08T16:14:42Z" name="tearDown" finished-at="2019-07-08T16:14:42Z" duration-ms="799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midhun.crmpro.tests.ContactsPageTest@2f54a33d]" started-at="2019-05-15T15:07:41Z" name="setUp" finished-at="2019-05-15T15:08:43Z" duration-ms="61821" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midhun.crmpro.tests.ContactsPageTest@3382f8ae]" started-at="2019-07-08T16:14:42Z" name="setUp" finished-at="2019-07-08T16:16:08Z" duration-ms="85811" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="selectSingleContactTest()[pri:2, instance:com.midhun.crmpro.tests.ContactsPageTest@2f54a33d]" started-at="2019-05-15T15:08:43Z" name="selectSingleContactTest" description="User select single contact" finished-at="2019-05-15T15:08:48Z" duration-ms="5038" status="PASS">
+        <test-method signature="selectSingleContactTest()[pri:8, instance:com.midhun.crmpro.tests.ContactsPageTest@3382f8ae]" started-at="2019-07-08T16:16:08Z" name="selectSingleContactTest" description="User select single contact" finished-at="2019-07-08T16:16:13Z" duration-ms="5250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectSingleContactTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.midhun.crmpro.tests.ContactsPageTest@2f54a33d]" started-at="2019-05-15T15:08:48Z" name="tearDown" finished-at="2019-05-15T15:08:52Z" duration-ms="4262" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.midhun.crmpro.tests.ContactsPageTest@3382f8ae]" started-at="2019-07-08T16:16:13Z" name="tearDown" finished-at="2019-07-08T16:16:14Z" duration-ms="857" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midhun.crmpro.tests.ContactsPageTest@2f54a33d]" started-at="2019-05-15T15:10:49Z" name="setUp" finished-at="2019-05-15T15:12:00Z" duration-ms="71136" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.midhun.crmpro.tests.ContactsPageTest@3382f8ae]" started-at="2019-07-08T16:16:14Z" name="setUp" finished-at="2019-07-08T16:17:34Z" duration-ms="79361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="selectMultipleContactsTest()[pri:3, instance:com.midhun.crmpro.tests.ContactsPageTest@2f54a33d]" started-at="2019-05-15T15:12:00Z" name="selectMultipleContactsTest" description="User select multiple contacts" finished-at="2019-05-15T15:12:10Z" duration-ms="10116" status="PASS">
+        <test-method signature="selectMultipleContactsTest()[pri:9, instance:com.midhun.crmpro.tests.ContactsPageTest@3382f8ae]" started-at="2019-07-08T16:17:34Z" name="selectMultipleContactsTest" description="User select multiple contacts" finished-at="2019-07-08T16:17:44Z" duration-ms="10499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectMultipleContactsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.midhun.crmpro.tests.ContactsPageTest@2f54a33d]" started-at="2019-05-15T15:12:10Z" name="tearDown" finished-at="2019-05-15T15:12:13Z" duration-ms="3112" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.midhun.crmpro.tests.ContactsPageTest@3382f8ae]" started-at="2019-07-08T16:17:44Z" name="tearDown" finished-at="2019-07-08T16:17:45Z" duration-ms="807" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

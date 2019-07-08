@@ -1,0 +1,299 @@
+2019-07-08 20:57:41.315 [INFO ] [main] TestListener : 53  Test started CRMPRO Application Regression Test Cases
+2019-07-08 20:58:22.826 [INFO ] [main] WebEventListener : 32  Before navigating to 'https://www.crmpro.com'
+2019-07-08 20:58:38.235 [INFO ] [main] WebEventListener : 37  Navigated to 'https://www.crmpro.com'
+2019-07-08 20:58:58.420 [INFO ] [main] TestListener : 21  Test started validateLoginPageTitleTest
+2019-07-08 20:58:58.481 [ERROR] [main] TestListener : 33  Test failed validateLoginPageTitleTest
+java.lang.AssertionError: expected [CRMPRO  - CRM software for customer relationship management, sales, and support.] but found [CRM says…]
+	at org.testng.Assert.fail(Assert.java:96) ~[testng-6.14.3.jar:?]
+	at org.testng.Assert.failNotEquals(Assert.java:776) ~[testng-6.14.3.jar:?]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137) ~[testng-6.14.3.jar:?]
+	at org.testng.Assert.assertEquals(Assert.java:118) ~[testng-6.14.3.jar:?]
+	at org.testng.Assert.assertEquals(Assert.java:453) ~[testng-6.14.3.jar:?]
+	at org.testng.Assert.assertEquals(Assert.java:463) ~[testng-6.14.3.jar:?]
+	at com.midhun.crmpro.tests.LoginPageTest.validateLoginPageTitleTest(LoginPageTest.java:25) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124) ~[testng-6.14.3.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583) [testng-6.14.3.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719) [testng-6.14.3.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989) [testng-6.14.3.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125) [testng-6.14.3.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109) [testng-6.14.3.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:648) [testng-6.14.3.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:505) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1049) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.3.jar:?]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+2019-07-08 20:59:06.168 [INFO ] [main] WebEventListener : 32  Before navigating to 'https://www.crmpro.com'
+2019-07-08 20:59:15.164 [INFO ] [main] WebEventListener : 37  Navigated to 'https://www.crmpro.com'
+2019-07-08 20:59:35.171 [INFO ] [main] TestListener : 21  Test started crmproLogoTest
+2019-07-08 20:59:35.173 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.xpath: //img[@src='https://d3lh3kd7bj2evy.cloudfront.net/img/logo.png']
+2019-07-08 20:59:35.211 [INFO ] [main] WebEventListener : 92  Found Element By By.xpath: //img[@src='https://d3lh3kd7bj2evy.cloudfront.net/img/logo.png']
+2019-07-08 20:59:35.293 [INFO ] [main] TestListener : 27  Test passed crmproLogoTest
+2019-07-08 20:59:40.986 [INFO ] [main] WebEventListener : 32  Before navigating to 'https://www.crmpro.com'
+2019-07-08 20:59:49.802 [INFO ] [main] WebEventListener : 37  Navigated to 'https://www.crmpro.com'
+2019-07-08 21:00:09.805 [INFO ] [main] TestListener : 21  Test started loginTest
+2019-07-08 21:00:09.807 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: username
+2019-07-08 21:00:09.844 [INFO ] [main] WebEventListener : 92  Found Element By By.name: username
+2019-07-08 21:00:10.109 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: password
+2019-07-08 21:00:10.131 [INFO ] [main] WebEventListener : 92  Found Element By By.name: password
+2019-07-08 21:00:10.436 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.xpath: //input[@value='Login']
+2019-07-08 21:00:10.457 [INFO ] [main] WebEventListener : 92  Found Element By By.xpath: //input[@value='Login']
+2019-07-08 21:00:10.458 [INFO ] [main] WebEventListener : 52  Trying to click on [[ChromeDriver: chrome on XP (2a06959d11924b715bcd8a82d6ca2080)] -> xpath: //input[@value='Login']]
+2019-07-08 21:00:19.166 [INFO ] [main] WebEventListener : 57  Clicked on [[ChromeDriver: chrome on XP (2a06959d11924b715bcd8a82d6ca2080)] -> xpath: //input[@value='Login']]
+2019-07-08 21:00:34.186 [INFO ] [main] TestListener : 27  Test passed loginTest
+2019-07-08 21:00:39.272 [INFO ] [main] WebEventListener : 32  Before navigating to 'https://www.crmpro.com'
+2019-07-08 21:00:48.505 [INFO ] [main] WebEventListener : 37  Navigated to 'https://www.crmpro.com'
+2019-07-08 21:01:08.507 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: username
+2019-07-08 21:01:08.531 [INFO ] [main] WebEventListener : 92  Found Element By By.name: username
+2019-07-08 21:01:08.733 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: password
+2019-07-08 21:01:08.755 [INFO ] [main] WebEventListener : 92  Found Element By By.name: password
+2019-07-08 21:01:08.880 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.xpath: //input[@value='Login']
+2019-07-08 21:01:08.909 [INFO ] [main] WebEventListener : 92  Found Element By By.xpath: //input[@value='Login']
+2019-07-08 21:01:08.911 [INFO ] [main] WebEventListener : 52  Trying to click on [[ChromeDriver: chrome on XP (2a8b480f748258a0992796fe8e783b1e)] -> xpath: //input[@value='Login']]
+2019-07-08 21:01:21.922 [INFO ] [main] WebEventListener : 57  Clicked on [[ChromeDriver: chrome on XP (2a8b480f748258a0992796fe8e783b1e)] -> xpath: //input[@value='Login']]
+2019-07-08 21:01:36.925 [INFO ] [main] TestListener : 21  Test started validateHomePageTitleTest
+2019-07-08 21:01:36.946 [INFO ] [main] TestListener : 27  Test passed validateHomePageTitleTest
+2019-07-08 21:01:42.173 [INFO ] [main] WebEventListener : 32  Before navigating to 'https://www.crmpro.com'
+2019-07-08 21:02:11.356 [INFO ] [main] WebEventListener : 37  Navigated to 'https://www.crmpro.com'
+2019-07-08 21:02:31.359 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: username
+2019-07-08 21:02:31.446 [INFO ] [main] WebEventListener : 92  Found Element By By.name: username
+2019-07-08 21:02:31.724 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: password
+2019-07-08 21:02:31.745 [INFO ] [main] WebEventListener : 92  Found Element By By.name: password
+2019-07-08 21:02:31.872 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.xpath: //input[@value='Login']
+2019-07-08 21:02:31.906 [INFO ] [main] WebEventListener : 92  Found Element By By.xpath: //input[@value='Login']
+2019-07-08 21:02:31.908 [INFO ] [main] WebEventListener : 52  Trying to click on [[ChromeDriver: chrome on XP (b201ff6dafca26393c7ce7cf54356b47)] -> xpath: //input[@value='Login']]
+2019-07-08 21:02:46.800 [INFO ] [main] WebEventListener : 57  Clicked on [[ChromeDriver: chrome on XP (b201ff6dafca26393c7ce7cf54356b47)] -> xpath: //input[@value='Login']]
+2019-07-08 21:03:01.805 [INFO ] [main] TestListener : 21  Test started validateLoggedInUserNameTest
+2019-07-08 21:03:02.021 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.xpath: //td[contains(text(), 'User: Midhun Kannath')]
+2019-07-08 21:03:02.043 [INFO ] [main] WebEventListener : 92  Found Element By By.xpath: //td[contains(text(), 'User: Midhun Kannath')]
+2019-07-08 21:03:02.082 [INFO ] [main] TestListener : 27  Test passed validateLoggedInUserNameTest
+2019-07-08 21:03:07.097 [INFO ] [main] WebEventListener : 32  Before navigating to 'https://www.crmpro.com'
+2019-07-08 21:03:25.221 [INFO ] [main] WebEventListener : 37  Navigated to 'https://www.crmpro.com'
+2019-07-08 21:03:45.226 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: username
+2019-07-08 21:03:45.318 [INFO ] [main] WebEventListener : 92  Found Element By By.name: username
+2019-07-08 21:03:45.592 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: password
+2019-07-08 21:03:45.620 [INFO ] [main] WebEventListener : 92  Found Element By By.name: password
+2019-07-08 21:03:45.810 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.xpath: //input[@value='Login']
+2019-07-08 21:03:45.856 [INFO ] [main] WebEventListener : 92  Found Element By By.xpath: //input[@value='Login']
+2019-07-08 21:03:45.857 [INFO ] [main] WebEventListener : 52  Trying to click on [[ChromeDriver: chrome on XP (4eb2e3dd33a983992ee1de1d0d4edf81)] -> xpath: //input[@value='Login']]
+2019-07-08 21:03:57.584 [INFO ] [main] WebEventListener : 57  Clicked on [[ChromeDriver: chrome on XP (4eb2e3dd33a983992ee1de1d0d4edf81)] -> xpath: //input[@value='Login']]
+2019-07-08 21:04:12.590 [INFO ] [main] TestListener : 21  Test started validateContactsLink
+2019-07-08 21:04:12.690 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.xpath: //a[@title='Contacts']
+2019-07-08 21:04:12.745 [INFO ] [main] WebEventListener : 92  Found Element By By.xpath: //a[@title='Contacts']
+2019-07-08 21:04:12.746 [INFO ] [main] WebEventListener : 52  Trying to click on [[ChromeDriver: chrome on XP (4eb2e3dd33a983992ee1de1d0d4edf81)] -> xpath: //a[@title='Contacts']]
+2019-07-08 21:04:24.710 [INFO ] [main] WebEventListener : 57  Clicked on [[ChromeDriver: chrome on XP (4eb2e3dd33a983992ee1de1d0d4edf81)] -> xpath: //a[@title='Contacts']]
+2019-07-08 21:04:39.825 [INFO ] [main] TestListener : 27  Test passed validateContactsLink
+2019-07-08 21:04:44.963 [INFO ] [main] WebEventListener : 32  Before navigating to 'https://www.crmpro.com'
+2019-07-08 21:04:58.760 [INFO ] [main] WebEventListener : 37  Navigated to 'https://www.crmpro.com'
+2019-07-08 21:05:18.765 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: username
+2019-07-08 21:05:18.846 [INFO ] [main] WebEventListener : 92  Found Element By By.name: username
+2019-07-08 21:05:19.077 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: password
+2019-07-08 21:05:19.096 [INFO ] [main] WebEventListener : 92  Found Element By By.name: password
+2019-07-08 21:05:19.226 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.xpath: //input[@value='Login']
+2019-07-08 21:05:19.246 [INFO ] [main] WebEventListener : 92  Found Element By By.xpath: //input[@value='Login']
+2019-07-08 21:05:19.247 [INFO ] [main] WebEventListener : 52  Trying to click on [[ChromeDriver: chrome on XP (c0100ae5a23a34f8f41eae8048cd1318)] -> xpath: //input[@value='Login']]
+2019-07-08 21:05:28.257 [INFO ] [main] WebEventListener : 57  Clicked on [[ChromeDriver: chrome on XP (c0100ae5a23a34f8f41eae8048cd1318)] -> xpath: //input[@value='Login']]
+2019-07-08 21:05:43.352 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.xpath: //a[@title='Contacts']
+2019-07-08 21:05:43.397 [INFO ] [main] WebEventListener : 92  Found Element By By.xpath: //a[@title='Contacts']
+2019-07-08 21:05:43.399 [INFO ] [main] WebEventListener : 52  Trying to click on [[ChromeDriver: chrome on XP (c0100ae5a23a34f8f41eae8048cd1318)] -> xpath: //a[@title='Contacts']]
+2019-07-08 21:05:46.127 [INFO ] [main] WebEventListener : 57  Clicked on [[ChromeDriver: chrome on XP (c0100ae5a23a34f8f41eae8048cd1318)] -> xpath: //a[@title='Contacts']]
+2019-07-08 21:06:01.130 [INFO ] [main] TestListener : 21  Test started validateContactsLabelTest
+2019-07-08 21:06:01.134 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.xpath: //td[contains(text(), 'Contacts')]
+2019-07-08 21:06:01.181 [INFO ] [main] WebEventListener : 92  Found Element By By.xpath: //td[contains(text(), 'Contacts')]
+2019-07-08 21:06:01.250 [INFO ] [main] TestListener : 27  Test passed validateContactsLabelTest
+2019-07-08 21:06:06.133 [INFO ] [main] WebEventListener : 32  Before navigating to 'https://www.crmpro.com'
+2019-07-08 21:06:14.701 [INFO ] [main] WebEventListener : 37  Navigated to 'https://www.crmpro.com'
+2019-07-08 21:06:34.704 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: username
+2019-07-08 21:06:34.774 [INFO ] [main] WebEventListener : 92  Found Element By By.name: username
+2019-07-08 21:06:35.058 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: password
+2019-07-08 21:06:35.077 [INFO ] [main] WebEventListener : 92  Found Element By By.name: password
+2019-07-08 21:06:35.207 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.xpath: //input[@value='Login']
+2019-07-08 21:06:35.232 [INFO ] [main] WebEventListener : 92  Found Element By By.xpath: //input[@value='Login']
+2019-07-08 21:06:35.233 [INFO ] [main] WebEventListener : 52  Trying to click on [[ChromeDriver: chrome on XP (a978266664c4328bcc7bd4b13e930003)] -> xpath: //input[@value='Login']]
+2019-07-08 21:06:42.844 [INFO ] [main] WebEventListener : 57  Clicked on [[ChromeDriver: chrome on XP (a978266664c4328bcc7bd4b13e930003)] -> xpath: //input[@value='Login']]
+2019-07-08 21:06:57.941 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.xpath: //a[@title='Contacts']
+2019-07-08 21:06:57.982 [INFO ] [main] WebEventListener : 92  Found Element By By.xpath: //a[@title='Contacts']
+2019-07-08 21:06:57.983 [INFO ] [main] WebEventListener : 52  Trying to click on [[ChromeDriver: chrome on XP (a978266664c4328bcc7bd4b13e930003)] -> xpath: //a[@title='Contacts']]
+2019-07-08 21:07:02.254 [INFO ] [main] WebEventListener : 57  Clicked on [[ChromeDriver: chrome on XP (a978266664c4328bcc7bd4b13e930003)] -> xpath: //a[@title='Contacts']]
+2019-07-08 21:07:17.256 [INFO ] [main] TestListener : 21  Test started selectSingleContactTest
+2019-07-08 21:07:17.257 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.xpath: //a[text()='Midhun Kannath']/../preceding-sibling::td
+2019-07-08 21:07:17.305 [INFO ] [main] WebEventListener : 92  Found Element By By.xpath: //a[text()='Midhun Kannath']/../preceding-sibling::td
+2019-07-08 21:07:17.307 [INFO ] [main] WebEventListener : 52  Trying to click on [[ChromeDriver: chrome on XP (a978266664c4328bcc7bd4b13e930003)] -> xpath: //a[text()='Midhun Kannath']/../preceding-sibling::td]
+2019-07-08 21:07:17.408 [INFO ] [main] WebEventListener : 57  Clicked on [[ChromeDriver: chrome on XP (a978266664c4328bcc7bd4b13e930003)] -> xpath: //a[text()='Midhun Kannath']/../preceding-sibling::td]
+2019-07-08 21:07:22.411 [INFO ] [main] TestListener : 27  Test passed selectSingleContactTest
+2019-07-08 21:07:26.976 [INFO ] [main] WebEventListener : 32  Before navigating to 'https://www.crmpro.com'
+2019-07-08 21:07:35.610 [INFO ] [main] WebEventListener : 37  Navigated to 'https://www.crmpro.com'
+2019-07-08 21:07:55.610 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: username
+2019-07-08 21:07:55.647 [INFO ] [main] WebEventListener : 92  Found Element By By.name: username
+2019-07-08 21:07:55.956 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: password
+2019-07-08 21:07:55.979 [INFO ] [main] WebEventListener : 92  Found Element By By.name: password
+2019-07-08 21:07:56.065 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.xpath: //input[@value='Login']
+2019-07-08 21:07:56.092 [INFO ] [main] WebEventListener : 92  Found Element By By.xpath: //input[@value='Login']
+2019-07-08 21:07:56.093 [INFO ] [main] WebEventListener : 52  Trying to click on [[ChromeDriver: chrome on XP (73749285c5845243cac22031cd468c77)] -> xpath: //input[@value='Login']]
+2019-07-08 21:07:57.736 [INFO ] [main] WebEventListener : 57  Clicked on [[ChromeDriver: chrome on XP (73749285c5845243cac22031cd468c77)] -> xpath: //input[@value='Login']]
+2019-07-08 21:11:15.662 [INFO ] [main] TestListener : 40  Test skipped selectMultipleContactsTest
+org.openqa.selenium.NoSuchFrameException: No frame element found by name or id mainpanel
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-T3ULBUPM', ip: '192.168.43.79', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:885) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator.frame(EventFiringWebDriver.java:702) ~[selenium-support-3.141.59.jar:?]
+	at com.midhun.crmpro.util.TestUtil.switchToFrame(TestUtil.java:26) ~[classes/:?]
+	at com.midhun.crmpro.pages.HomePage.clickOnContactsLink(HomePage.java:47) ~[classes/:?]
+	at com.midhun.crmpro.tests.ContactsPageTest.setUp(ContactsPageTest.java:19) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124) ~[testng-6.14.3.jar:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59) ~[testng-6.14.3.jar:?]
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458) [testng-6.14.3.jar:?]
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222) [testng-6.14.3.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523) [testng-6.14.3.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719) [testng-6.14.3.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989) [testng-6.14.3.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125) [testng-6.14.3.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109) [testng-6.14.3.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:648) [testng-6.14.3.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:505) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1049) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.3.jar:?]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+2019-07-08 21:11:22.395 [INFO ] [main] WebEventListener : 32  Before navigating to 'https://www.crmpro.com'
+2019-07-08 21:11:34.969 [INFO ] [main] WebEventListener : 37  Navigated to 'https://www.crmpro.com'
+2019-07-08 21:11:54.972 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: username
+2019-07-08 21:11:55.047 [INFO ] [main] WebEventListener : 92  Found Element By By.name: username
+2019-07-08 21:11:55.348 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: password
+2019-07-08 21:11:55.368 [INFO ] [main] WebEventListener : 92  Found Element By By.name: password
+2019-07-08 21:11:55.499 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.xpath: //input[@value='Login']
+2019-07-08 21:11:55.521 [INFO ] [main] WebEventListener : 92  Found Element By By.xpath: //input[@value='Login']
+2019-07-08 21:11:55.522 [INFO ] [main] WebEventListener : 52  Trying to click on [[ChromeDriver: chrome on XP (5aa1011c239936968949aec8ef3b5cf1)] -> xpath: //input[@value='Login']]
+2019-07-08 21:12:06.584 [INFO ] [main] WebEventListener : 57  Clicked on [[ChromeDriver: chrome on XP (5aa1011c239936968949aec8ef3b5cf1)] -> xpath: //input[@value='Login']]
+2019-07-08 21:12:21.699 [INFO ] [Forwarding actions on session 5aa1011c239936968949aec8ef3b5cf1 to remote] WebEventListener : 87  Trying to find Element By By.xpath: //a[@title='Contacts']
+2019-07-08 21:12:21.741 [INFO ] [Forwarding actions on session 5aa1011c239936968949aec8ef3b5cf1 to remote] WebEventListener : 92  Found Element By By.xpath: //a[@title='Contacts']
+2019-07-08 21:12:21.964 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.linkText: New Contact
+2019-07-08 21:12:22.016 [INFO ] [main] WebEventListener : 92  Found Element By By.linkText: New Contact
+2019-07-08 21:12:22.017 [INFO ] [main] WebEventListener : 52  Trying to click on [[ChromeDriver: chrome on XP (5aa1011c239936968949aec8ef3b5cf1)] -> link text: New Contact]
+2019-07-08 21:12:25.568 [INFO ] [main] WebEventListener : 57  Clicked on [[ChromeDriver: chrome on XP (5aa1011c239936968949aec8ef3b5cf1)] -> link text: New Contact]
+2019-07-08 21:12:25.585 [INFO ] [main] TestListener : 21  Test started createNewContactTest
+2019-07-08 21:12:25.589 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: title
+2019-07-08 21:12:25.622 [INFO ] [main] WebEventListener : 92  Found Element By By.name: title
+2019-07-08 21:12:25.634 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: title
+2019-07-08 21:12:25.654 [INFO ] [main] WebEventListener : 92  Found Element By By.name: title
+2019-07-08 21:12:25.678 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: title
+2019-07-08 21:12:25.704 [INFO ] [main] WebEventListener : 92  Found Element By By.name: title
+2019-07-08 21:12:25.705 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.xpath: .//option[normalize-space(.) = "Mr."]
+2019-07-08 21:12:25.731 [INFO ] [main] WebEventListener : 92  Found Element By By.xpath: .//option[normalize-space(.) = "Mr."]
+2019-07-08 21:12:25.747 [INFO ] [main] WebEventListener : 52  Trying to click on [[[[ChromeDriver: chrome on XP (5aa1011c239936968949aec8ef3b5cf1)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+2019-07-08 21:12:25.798 [INFO ] [main] WebEventListener : 57  Clicked on [[[[ChromeDriver: chrome on XP (5aa1011c239936968949aec8ef3b5cf1)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+2019-07-08 21:12:25.798 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.id: first_name
+2019-07-08 21:12:25.819 [INFO ] [main] WebEventListener : 92  Found Element By By.id: first_name
+2019-07-08 21:12:26.028 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.id: surname
+2019-07-08 21:12:26.066 [INFO ] [main] WebEventListener : 92  Found Element By By.id: surname
+2019-07-08 21:12:26.275 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: client_lookup
+2019-07-08 21:12:26.303 [INFO ] [main] WebEventListener : 92  Found Element By By.name: client_lookup
+2019-07-08 21:12:26.423 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.xpath: //input[@value='Save']
+2019-07-08 21:12:26.442 [INFO ] [main] WebEventListener : 92  Found Element By By.xpath: //input[@value='Save']
+2019-07-08 21:12:26.442 [INFO ] [main] WebEventListener : 52  Trying to click on [[ChromeDriver: chrome on XP (5aa1011c239936968949aec8ef3b5cf1)] -> xpath: //input[@value='Save']]
+2019-07-08 21:12:29.298 [INFO ] [main] WebEventListener : 57  Clicked on [[ChromeDriver: chrome on XP (5aa1011c239936968949aec8ef3b5cf1)] -> xpath: //input[@value='Save']]
+2019-07-08 21:12:29.301 [INFO ] [main] TestListener : 27  Test passed createNewContactTest
+2019-07-08 21:12:34.626 [INFO ] [main] WebEventListener : 32  Before navigating to 'https://www.crmpro.com'
+2019-07-08 21:12:44.492 [INFO ] [main] WebEventListener : 37  Navigated to 'https://www.crmpro.com'
+2019-07-08 21:13:04.494 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: username
+2019-07-08 21:13:04.559 [INFO ] [main] WebEventListener : 92  Found Element By By.name: username
+2019-07-08 21:13:04.861 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: password
+2019-07-08 21:13:04.878 [INFO ] [main] WebEventListener : 92  Found Element By By.name: password
+2019-07-08 21:13:04.988 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.xpath: //input[@value='Login']
+2019-07-08 21:13:05.006 [INFO ] [main] WebEventListener : 92  Found Element By By.xpath: //input[@value='Login']
+2019-07-08 21:13:05.007 [INFO ] [main] WebEventListener : 52  Trying to click on [[ChromeDriver: chrome on XP (ec250012513ae459584c1a5e62ebcbc6)] -> xpath: //input[@value='Login']]
+2019-07-08 21:13:15.455 [INFO ] [main] WebEventListener : 57  Clicked on [[ChromeDriver: chrome on XP (ec250012513ae459584c1a5e62ebcbc6)] -> xpath: //input[@value='Login']]
+2019-07-08 21:13:30.534 [INFO ] [Forwarding actions on session ec250012513ae459584c1a5e62ebcbc6 to remote] WebEventListener : 87  Trying to find Element By By.xpath: //a[@title='Contacts']
+2019-07-08 21:13:30.559 [INFO ] [Forwarding actions on session ec250012513ae459584c1a5e62ebcbc6 to remote] WebEventListener : 92  Found Element By By.xpath: //a[@title='Contacts']
+2019-07-08 21:13:30.718 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.linkText: New Contact
+2019-07-08 21:13:30.752 [INFO ] [main] WebEventListener : 92  Found Element By By.linkText: New Contact
+2019-07-08 21:13:30.752 [INFO ] [main] WebEventListener : 52  Trying to click on [[ChromeDriver: chrome on XP (ec250012513ae459584c1a5e62ebcbc6)] -> link text: New Contact]
+2019-07-08 21:13:35.827 [INFO ] [main] WebEventListener : 57  Clicked on [[ChromeDriver: chrome on XP (ec250012513ae459584c1a5e62ebcbc6)] -> link text: New Contact]
+2019-07-08 21:13:35.830 [INFO ] [main] TestListener : 21  Test started createNewContactTest
+2019-07-08 21:13:35.830 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: title
+2019-07-08 21:13:35.869 [INFO ] [main] WebEventListener : 92  Found Element By By.name: title
+2019-07-08 21:13:35.884 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: title
+2019-07-08 21:13:35.908 [INFO ] [main] WebEventListener : 92  Found Element By By.name: title
+2019-07-08 21:13:35.924 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: title
+2019-07-08 21:13:35.942 [INFO ] [main] WebEventListener : 92  Found Element By By.name: title
+2019-07-08 21:13:35.943 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.xpath: .//option[normalize-space(.) = "Dr."]
+2019-07-08 21:13:35.978 [INFO ] [main] WebEventListener : 92  Found Element By By.xpath: .//option[normalize-space(.) = "Dr."]
+2019-07-08 21:13:36.009 [INFO ] [main] WebEventListener : 52  Trying to click on [[[[ChromeDriver: chrome on XP (ec250012513ae459584c1a5e62ebcbc6)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Dr."]]
+2019-07-08 21:13:36.076 [INFO ] [main] WebEventListener : 57  Clicked on [[[[ChromeDriver: chrome on XP (ec250012513ae459584c1a5e62ebcbc6)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Dr."]]
+2019-07-08 21:13:36.077 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.id: first_name
+2019-07-08 21:13:36.110 [INFO ] [main] WebEventListener : 92  Found Element By By.id: first_name
+2019-07-08 21:13:36.261 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.id: surname
+2019-07-08 21:13:36.279 [INFO ] [main] WebEventListener : 92  Found Element By By.id: surname
+2019-07-08 21:13:36.372 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: client_lookup
+2019-07-08 21:13:36.394 [INFO ] [main] WebEventListener : 92  Found Element By By.name: client_lookup
+2019-07-08 21:13:36.500 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.xpath: //input[@value='Save']
+2019-07-08 21:13:36.519 [INFO ] [main] WebEventListener : 92  Found Element By By.xpath: //input[@value='Save']
+2019-07-08 21:13:36.519 [INFO ] [main] WebEventListener : 52  Trying to click on [[ChromeDriver: chrome on XP (ec250012513ae459584c1a5e62ebcbc6)] -> xpath: //input[@value='Save']]
+2019-07-08 21:13:40.320 [INFO ] [main] WebEventListener : 57  Clicked on [[ChromeDriver: chrome on XP (ec250012513ae459584c1a5e62ebcbc6)] -> xpath: //input[@value='Save']]
+2019-07-08 21:13:40.323 [INFO ] [main] TestListener : 27  Test passed createNewContactTest
+2019-07-08 21:13:45.005 [INFO ] [main] WebEventListener : 32  Before navigating to 'https://www.crmpro.com'
+2019-07-08 21:13:53.350 [INFO ] [main] WebEventListener : 37  Navigated to 'https://www.crmpro.com'
+2019-07-08 21:14:13.352 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: username
+2019-07-08 21:14:13.426 [INFO ] [main] WebEventListener : 92  Found Element By By.name: username
+2019-07-08 21:14:13.683 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: password
+2019-07-08 21:14:13.703 [INFO ] [main] WebEventListener : 92  Found Element By By.name: password
+2019-07-08 21:14:13.818 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.xpath: //input[@value='Login']
+2019-07-08 21:14:13.843 [INFO ] [main] WebEventListener : 92  Found Element By By.xpath: //input[@value='Login']
+2019-07-08 21:14:13.844 [INFO ] [main] WebEventListener : 52  Trying to click on [[ChromeDriver: chrome on XP (2f22c5b8240fb42930a0051ccc5710bc)] -> xpath: //input[@value='Login']]
+2019-07-08 21:14:22.265 [INFO ] [main] WebEventListener : 57  Clicked on [[ChromeDriver: chrome on XP (2f22c5b8240fb42930a0051ccc5710bc)] -> xpath: //input[@value='Login']]
+2019-07-08 21:14:37.362 [INFO ] [Forwarding actions on session 2f22c5b8240fb42930a0051ccc5710bc to remote] WebEventListener : 87  Trying to find Element By By.xpath: //a[@title='Contacts']
+2019-07-08 21:14:37.404 [INFO ] [Forwarding actions on session 2f22c5b8240fb42930a0051ccc5710bc to remote] WebEventListener : 92  Found Element By By.xpath: //a[@title='Contacts']
+2019-07-08 21:14:37.622 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.linkText: New Contact
+2019-07-08 21:14:37.657 [INFO ] [main] WebEventListener : 92  Found Element By By.linkText: New Contact
+2019-07-08 21:14:37.657 [INFO ] [main] WebEventListener : 52  Trying to click on [[ChromeDriver: chrome on XP (2f22c5b8240fb42930a0051ccc5710bc)] -> link text: New Contact]
+2019-07-08 21:14:50.211 [INFO ] [main] WebEventListener : 57  Clicked on [[ChromeDriver: chrome on XP (2f22c5b8240fb42930a0051ccc5710bc)] -> link text: New Contact]
+2019-07-08 21:14:50.218 [INFO ] [main] TestListener : 21  Test started createNewContactTest
+2019-07-08 21:14:50.219 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: title
+2019-07-08 21:14:50.266 [INFO ] [main] WebEventListener : 92  Found Element By By.name: title
+2019-07-08 21:14:50.283 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: title
+2019-07-08 21:14:50.311 [INFO ] [main] WebEventListener : 92  Found Element By By.name: title
+2019-07-08 21:14:50.337 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: title
+2019-07-08 21:14:50.363 [INFO ] [main] WebEventListener : 92  Found Element By By.name: title
+2019-07-08 21:14:50.364 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.xpath: .//option[normalize-space(.) = "Mrs."]
+2019-07-08 21:14:50.419 [INFO ] [main] WebEventListener : 92  Found Element By By.xpath: .//option[normalize-space(.) = "Mrs."]
+2019-07-08 21:14:50.460 [INFO ] [main] WebEventListener : 52  Trying to click on [[[[ChromeDriver: chrome on XP (2f22c5b8240fb42930a0051ccc5710bc)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Mrs."]]
+2019-07-08 21:14:50.566 [INFO ] [main] WebEventListener : 57  Clicked on [[[[ChromeDriver: chrome on XP (2f22c5b8240fb42930a0051ccc5710bc)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Mrs."]]
+2019-07-08 21:14:50.567 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.id: first_name
+2019-07-08 21:14:50.595 [INFO ] [main] WebEventListener : 92  Found Element By By.id: first_name
+2019-07-08 21:14:50.750 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.id: surname
+2019-07-08 21:14:50.768 [INFO ] [main] WebEventListener : 92  Found Element By By.id: surname
+2019-07-08 21:14:50.854 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.name: client_lookup
+2019-07-08 21:14:50.873 [INFO ] [main] WebEventListener : 92  Found Element By By.name: client_lookup
+2019-07-08 21:14:50.958 [INFO ] [main] WebEventListener : 87  Trying to find Element By By.xpath: //input[@value='Save']
+2019-07-08 21:14:50.977 [INFO ] [main] WebEventListener : 92  Found Element By By.xpath: //input[@value='Save']
+2019-07-08 21:14:50.977 [INFO ] [main] WebEventListener : 52  Trying to click on [[ChromeDriver: chrome on XP (2f22c5b8240fb42930a0051ccc5710bc)] -> xpath: //input[@value='Save']]
+2019-07-08 21:14:53.888 [INFO ] [main] WebEventListener : 57  Clicked on [[ChromeDriver: chrome on XP (2f22c5b8240fb42930a0051ccc5710bc)] -> xpath: //input[@value='Save']]
+2019-07-08 21:14:53.892 [INFO ] [main] TestListener : 27  Test passed createNewContactTest
+2019-07-08 21:14:55.008 [INFO ] [main] TestListener : 59  Test finished CRMPRO Application Regression Test Cases

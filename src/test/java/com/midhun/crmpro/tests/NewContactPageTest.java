@@ -27,7 +27,7 @@ public class NewContactPageTest extends TestBase {
 		newContactPage = new LoginPage().login(prop.getProperty("username"), prop.getProperty("password")).clickOnNewContactLink();
 	}
 
-	@Test(priority = 1, dataProvider = "getTestData", description = "Create new contact")
+	@Test(priority = 10, dataProvider = "getTestData", description = "Create new contact")
 	public void createNewContactTest(String title, String firstName, String lastName, String company) {
 
 		newContactPage.createNewContact(title, firstName, lastName, company);

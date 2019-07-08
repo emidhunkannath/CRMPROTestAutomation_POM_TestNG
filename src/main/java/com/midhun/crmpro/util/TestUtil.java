@@ -9,7 +9,6 @@ import org.apache.commons.io.comparator.LastModifiedFileComparator;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
-import org.openqa.selenium.NoSuchSessionException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestResult;
@@ -18,8 +17,8 @@ import com.midhun.crmpro.base.TestBase;
 
 public class TestUtil {
 
-	public static final long PAGE_LOAD_TIMEOUT = 60;
-	public static final long MPLICIT_WAIT = 60;
+	public static final long PAGE_LOAD_TIMEOUT = 90;
+	public static final long MPLICIT_WAIT = 90;
 	private static final String TESTDATA_SHEET_PATH = "src/main/java/com/midhun/crmpro/testdata/CRMPROTestData.xlsx";
 
 	public void switchToFrame() {
@@ -59,7 +58,7 @@ public class TestUtil {
 			File srcFile = ((TakesScreenshot) TestBase.driver).getScreenshotAs(OutputType.FILE);
 			String currentDir = System.getProperty("user.dir");
 			srcFile.renameTo(new File(currentDir + "/screenshots/" + name + "_" + System.currentTimeMillis() + ".png"));
-		} catch (NoSuchSessionException e) {
+		} catch (Exception e) {
 
 			e.printStackTrace();
 		}

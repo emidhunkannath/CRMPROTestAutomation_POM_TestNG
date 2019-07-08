@@ -8,7 +8,7 @@
 		<listener class-name="com.midhun.crmpro.util.ExtentReporterNG" />
 	</listeners>
 
-	<test name="CRMPRO Application Regression Test Cases">
+	<test name="CRMPRO Application Regression Test Cases" preserve-order = "true">
 		<classes>
 			<class name="com.midhun.crmpro.tests.LoginPageTest">
 				<methods>

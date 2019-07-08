@@ -5,12 +5,13 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-
 import com.midhun.crmpro.util.TestUtil;
 import com.midhun.crmpro.util.WebEventListener;
 
+import io.github.bonigarcia.wdm.ChromeDriverManager;
 import io.github.bonigarcia.wdm.EdgeDriverManager;
 
 public class TestBase {
@@ -47,6 +48,10 @@ public class TestBase {
 		case "edge":
 			EdgeDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
+			break;
+		case "chrome":
+			ChromeDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
 			break;
 		default:
 			break;
